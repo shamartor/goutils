@@ -3,6 +3,10 @@ language: go
 go:
   - 1.13.x
 
+branches:
+  only:
+    - master
+
 install: true
 
 script:

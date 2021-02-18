@@ -3,7 +3,7 @@ package hash
 import "testing"
 
 func TestMd5(t *testing.T) {
-	const expectFileMd5 = "7861252f1d3f3bc4e377782deb212dca"
+	const expectFileMd5 = "198ba96a1c670287dcccaaeab07c6be4"
 	actualFileMd5, err := FileMd5("./md5.go")
 	if err != nil {
 		panic(err)
