@@ -14,7 +14,7 @@ func TestMd5(t *testing.T) {
 	}
 
 	const str = "why did you like golang"
-	const expectStringMd5 = "09a6f16fc1e802003b4c0c11b69761d222"
+	const expectStringMd5 = "09a6f16fc1e802003b4c0c11b69761d2"
 	actualStringMd5 := StringMd5(str)
 	if expectStringMd5 != actualStringMd5 {
 		t.Errorf("expect string md5 value is %s; but had %s\n", expectStringMd5, actualStringMd5)
