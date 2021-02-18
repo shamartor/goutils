@@ -6,6 +6,7 @@ go:
 branches:
   only:
     - master
+    - main
 
 install: true
 
